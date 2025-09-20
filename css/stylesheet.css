@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 5%;
+    gap: 12px;
+    color: hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 6px 6px;
+}
+
+.card-type {
+    display: flex;
+    background-color:  hsl(47, 88%, 63%);
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 5%;
+    font-size: 13px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    padding: 8px;
+}
+
+h1 {
+    color: hsl(0, 0%, 7%);
+    margin: 0;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.date {
+    font-size: 13px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+}
+
+.blog-card img#illustration-card {
+    max-width:fit-content;
+    max-height: fit-content;
+    border-radius: 5%;
+}
+
+.explanation {
+    color: hsl(0, 0%, 42%);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+}
+
+.blog-footer {
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.blog-footer img#image-avatar {
+    width: 32px;
+    height: 32px;
+}
