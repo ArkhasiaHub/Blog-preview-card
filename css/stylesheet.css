@@ -77,4 +77,5 @@ h1:hover {
 .blog-footer img#image-avatar {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
 }
